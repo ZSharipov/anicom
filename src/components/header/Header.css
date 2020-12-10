@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(200, 200, 200, 0.09);
+}
+.header .nav-header {
+  display: flex;
+  flex-grow: 1;
+}
+.header .dropdown {
+  margin-right: 4em;
+}
+.nav-item:hover{
+  background-color: rgb(220, 220, 220);
+}

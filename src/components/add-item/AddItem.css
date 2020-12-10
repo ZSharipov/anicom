@@ -1,0 +1,66 @@
+.modal{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.modal-body{
+  flex-grow: 0;
+  padding: 2rem;
+  width: 30%;
+  border-radius: 5px;
+  background: #fff;
+  /* height: auto; */
+  text-align:start;
+  height: fit-content;
+}
+
+.div-list{
+  display: flex;  
+  width: 100%;
+  margin-bottom: .5em;
+}
+.div-file-choose{
+  display: flex; 
+  flex-direction: column; 
+  width: 100%;
+  margin-top: 1em;
+  border: .4px solid #ddd;
+  border-radius: .2em;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.div-file-choose>label{
+  margin: 1em 0;
+  
+}
+.div-file-choose>input{
+  height: 0;
+}
+.modal-body .file-name-label{
+  color: #aaa;
+  font-size: .9em;
+  margin-bottom: 1em;
+}
+.div-list>input{
+  flex-grow: 1;
+}
+.div-list>button{
+  flex-grow: 1;
+ 
+}
+.modal-body>label{
+  margin-bottom: 0;
+}
+.div-list>span{
+  align-self: flex-end;
+  margin-left: .5em;
+}

@@ -1,0 +1,19 @@
+.ul-main{
+  width: 90%;
+  margin: auto;
+  padding-top: 4em;
+}
+.ul-main li{
+  display: flex;
+}
+.ul-main li>div{
+  width: 12%;
+  border-bottom: .05px solid #eee;
+  padding: .8em .3em;
+}
+.ul-main li:nth-child(odd){
+  background-color:rgba(200, 200, 200, 0.09);
+}
+.ul-main li:hover{
+  background-color:rgb(220, 220, 220);
+}
